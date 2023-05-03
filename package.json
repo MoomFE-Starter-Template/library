@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "packageManager": "pnpm@8.4.0",
   "description": "",
-  "keywords": [],
   "author": "Wei Zhang <https://github.com/Zhang-Wei-666>",
   "license": "MIT",
   "homepage": "https://github.com/MoomFE-Starter-Template/library#readme",
@@ -15,11 +14,15 @@
   "bugs": {
     "url": "https://github.com/MoomFE-Starter-Template/library/issues"
   },
-  "scripts": {},
+  "keywords": [],
+  "scripts": {
+    "build": "unbuild"
+  },
   "devDependencies": {
     "@moomfe/eslint-config": "^2.4.0",
     "eslint": "^8.39.0",
     "pnpm": "^8.4.0",
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "unbuild": "^1.2.1"
   }
 }
