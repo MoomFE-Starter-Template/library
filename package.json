@@ -25,8 +25,15 @@
     "@vitest/ui": "^0.31.1",
     "eslint": "^8.41.0",
     "pnpm": "^8.5.1",
+    "simple-git-hooks": "^2.8.1",
     "typescript": "^5.0.4",
     "unbuild": "^1.2.1",
     "vitest": "^0.31.1"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
   }
 }
