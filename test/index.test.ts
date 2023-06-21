@@ -1,8 +1,7 @@
-import { describe, expect, it } from 'vitest';
 import { C, a, b } from '../src/index';
 
 describe('test', () => {
-  it('should be ok', () => {
+  test('should be ok', () => {
     expect(a).toBe(1);
 
     expect(b).toBeTypeOf('function');
