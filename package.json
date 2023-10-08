@@ -15,11 +15,11 @@
   },
   "keywords": [],
   "scripts": {
-    "test": "vitest --coverage",
-    "test:ui": "vitest --coverage --ui",
+    "test": "pnpm install && vitest --coverage",
+    "test:ui": "pnpm test -- --ui",
     "up": "npx taze latest -r -w -i",
-    "build": "unbuild",
-    "release": "npx bumpp -r --no-tag --no-push"
+    "build": "pnpm install && unbuild",
+    "release": "pnpm install && npx bumpp -r --no-tag --no-push"
   },
   "devDependencies": {
     "@moomfe/eslint-config": "^2.7.2",
