@@ -17,9 +17,9 @@
   "scripts": {
     "test": "pnpm install && vitest",
     "test:ui": "pnpm test -- --ui",
-    "test-build": "pnpm install && vitest --mode test-build",
+    "test-build": "pnpm build && vitest --mode test-build",
     "test-build:ui": "pnpm test-build --ui",
-    "test-release": "pnpm install && vitest --run",
+    "test-release": "pnpm install && vitest --run && pnpm test-build --run",
     "test-coverage": "pnpm install && vitest --run",
     "up": "npx taze latest -r -w -i",
     "build": "pnpm install && unbuild",
