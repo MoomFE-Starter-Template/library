@@ -7,3 +7,7 @@ export function b() {
 export class C {
   public d = 3;
 }
+
+export interface E {
+  e: number
+}
