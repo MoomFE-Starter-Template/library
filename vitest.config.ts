@@ -4,7 +4,9 @@ export default defineConfig({
   test: {
     globals: true,
     coverage: {
+      enabled: true,
       provider: 'v8',
+      all: false,
     },
   },
 });

@@ -18,6 +18,7 @@
     "test": "pnpm install && vitest --coverage",
     "test:ui": "pnpm test -- --ui",
     "test-release": "pnpm install && vitest --run",
+    "test-coverage": "pnpm install && vitest --run",
     "up": "npx taze latest -r -w -i",
     "build": "pnpm install && unbuild",
     "release": "pnpm test-release && npx bumpp -r --no-tag --no-push"
