@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "@moomfe/eslint-config": "^2.7.2",
+    "@types/node": "^20.11.30",
     "@vitest/coverage-v8": "^1.4.0",
     "@vitest/ui": "^1.4.0",
     "eslint": "^8.57.0",
