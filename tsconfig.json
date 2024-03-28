@@ -12,7 +12,10 @@
     "allowJs": true,
     "types": [
       "vitest/globals"
-    ]
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "exclude": [
     "**/dist/**",

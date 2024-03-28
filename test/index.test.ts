@@ -1,5 +1,5 @@
-import type { E } from '../src/index';
-import { C, a, b } from '../src/index';
+import type { E } from '@/index';
+import { C, a, b } from '@/index';
 
 describe('test', () => {
   test('should be ok', () => {
