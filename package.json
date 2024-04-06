@@ -30,7 +30,7 @@
     "@types/node": "^20.12.2",
     "@vitest/coverage-v8": "^1.4.0",
     "@vitest/ui": "^1.4.0",
-    "eslint": "^8.57.0",
+    "eslint": "^9.0.0",
     "lint-staged": "^15.2.2",
     "pnpm": "^8.15.5",
     "simple-git-hooks": "^2.11.1",
