@@ -1,8 +1,8 @@
 {
-  "name": "library-name",
-  "version": "0.0.0",
+  "name": "@starter-template/library",
+  "version": "1.0.0",
   "packageManager": "pnpm@8.15.6",
-  "description": "",
+  "description": "创建 TypeScript 类库的基础模板",
   "author": "Wei Zhang <https://github.com/Zhang-Wei-666>",
   "license": "MIT",
   "homepage": "https://github.com/MoomFE-Starter-Template/library#readme",
@@ -13,7 +13,10 @@
   "bugs": {
     "url": "https://github.com/MoomFE-Starter-Template/library/issues"
   },
-  "keywords": [],
+  "keywords": [
+    "template",
+    "library"
+  ],
   "scripts": {
     "test": "pnpm install && vitest",
     "test:ui": "pnpm test -- --ui",
