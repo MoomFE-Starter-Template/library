@@ -9,5 +9,5 @@ export class C {
 }
 
 export interface E {
-  e: number
+  e: number;
 }

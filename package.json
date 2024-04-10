@@ -19,9 +19,9 @@
   ],
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
-      "require": "./dist/index.cjs",
-      "types": "./dist/index.d.ts"
+      "require": "./dist/index.cjs"
     },
     "./*": "./*"
   },
@@ -36,11 +36,13 @@
     "test-release": "pnpm install && vitest --run && pnpm test-build --run",
     "test-coverage": "pnpm install && vitest --run",
     "up": "npx taze latest -r -w -i",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "build": "pnpm install && unbuild",
     "release": "pnpm test-release && npx bumpp -r --no-tag --no-push"
   },
   "devDependencies": {
-    "@moomfe/eslint-config": "^2.7.2",
+    "@moomfe/eslint-config": "^3.0.0-beta.2",
     "@types/node": "^20.12.5",
     "@vitest/coverage-v8": "^1.4.0",
     "@vitest/ui": "^1.4.0",

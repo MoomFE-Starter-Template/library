@@ -2,7 +2,7 @@ import type { E } from '@/index';
 import { C, a, b } from '@/index';
 
 describe('test', () => {
-  test('should be ok', () => {
+  it('should be ok', () => {
     expect(a).toBe(1);
 
     expect(b).toBeTypeOf('function');

@@ -1,23 +1,38 @@
 {
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
-  },
-  "typescript.tsdk": "node_modules/typescript/lib",
+  // 启用 ESlint 的扁平配置支持
+  "eslint.experimental.useFlatConfig": true,
+
+  // 禁用默认格式化程序, 使用 eslint 代替
   "prettier.enable": false,
-  "files.exclude": {
-    "*.code-workspace": true,
-    "node_modules": true
+  "editor.formatOnSave": false,
+
+  // 自动修复
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
   },
-  "eslint.quiet": true,
+
+  // 启用 eslint 对所有支持的语言
   "eslint.validate": [
     "javascript",
-    "typescript",
     "javascriptreact",
+    "typescript",
     "typescriptreact",
     "vue",
     "html",
     "markdown",
     "json",
-    "json5"
+    "jsonc",
+    "yaml",
+    "toml",
+    "gql",
+    "graphql"
   ],
+
+  "eslint.quiet": true,
+
+  "files.exclude": {
+    "*.code-workspace": true,
+    "node_modules": true
+  }
 }
