@@ -1,5 +1,6 @@
 {
   "name": "@starter-template/library",
+  "type": "module",
   "version": "1.0.1",
   "packageManager": "pnpm@9.0.6",
   "description": "创建 TypeScript 类库的基础模板",
