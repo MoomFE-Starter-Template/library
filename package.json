@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "@moomfe/eslint-config": "^3.0.0",
-    "@types/node": "^20.14.0",
+    "@types/node": "^20.14.2",
     "@vitest/coverage-v8": "^1.6.0",
     "@vitest/ui": "^1.6.0",
     "eslint": "^9.4.0",
