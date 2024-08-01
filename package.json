@@ -43,11 +43,11 @@
     "release": "pnpm test-release && npx bumpp -r --no-tag --no-push"
   },
   "devDependencies": {
-    "@moomfe/eslint-config": "^3.0.0",
+    "@moomfe/eslint-config": "^3.1.0",
     "@types/node": "^20.14.13",
     "@vitest/coverage-v8": "^1.6.0",
     "@vitest/ui": "^1.6.0",
-    "eslint": "^9.6.0",
+    "eslint": "^9.8.0",
     "lint-staged": "^15.2.7",
     "pnpm": "^9.6.0",
     "simple-git-hooks": "^2.11.1",
