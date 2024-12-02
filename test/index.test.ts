@@ -1,5 +1,5 @@
 import type { E } from '@/index';
-import { C, a, b } from '@/index';
+import { a, b, C } from '@/index';
 
 describe('test', () => {
   it('should be ok', () => {
