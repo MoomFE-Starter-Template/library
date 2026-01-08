@@ -2,7 +2,7 @@
   "name": "@starter-template/library",
   "type": "module",
   "version": "1.0.1",
-  "packageManager": "pnpm@10.24.0",
+  "packageManager": "pnpm@10.27.0",
   "description": "创建 TypeScript 类库的基础模板",
   "author": "Wei Zhang <https://github.com/Zhang-Wei-666>",
   "license": "MIT",
