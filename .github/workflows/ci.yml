@@ -13,16 +13,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v6
-      - uses: pnpm/action-setup@v4
+    permissions:
+      contents: write
+      id-token: write
 
-      - name: Use Node.js v20
-        uses: actions/setup-node@v4
+    steps:
+      - name: Setup JS
+        uses: sxzz/workflows/setup-js@v1
         with:
-          node-version: 20.20.2
-          registry-url: https://registry.npmjs.org/
-          cache: pnpm
+          fetch-all: true
 
       - name: lint
         run: pnpm lint
