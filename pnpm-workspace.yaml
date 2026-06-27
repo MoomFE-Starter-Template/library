@@ -1,0 +1,8 @@
+shamefullyHoist: true
+shellEmulator: true
+strictPeerDependencies: false
+trustPolicy: no-downgrade
+pmOnFail: warn
+allowBuilds:
+  esbuild: true
+  simple-git-hooks: true
